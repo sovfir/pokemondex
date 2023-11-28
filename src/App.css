@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  align-items: center;
+  width: 100%;
+  height:100%;
+}
+
+.navbar {
+  display: flex;
+  width:100%;
+  right:4%;
+}
+
+.appHeader {
+  margin: 1%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  align-items: center;
+}
+
+.appHeader label {
+  padding: 4%;
+  color:beige;
+  font-family:Verdana, Geneva, Tahoma, bold;
+}
+
+.appHeader button {
+  background-color: #ffcb04;
+  height: 30px;
+  width:60px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+}
+
+.themeButton {
+  background-color: #ffcb04;
+  height: 40px;
+  width:60px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  display: flex;
+  align-self: flex-end;
+  position: absolute;
+  top: 10px; /* Выберите нужный отступ сверху */
+  right: 10px; /* Выберите нужный отступ справа */
+}
+
+.cardsdiv {
+  width:80%;
+}
+
+.light-theme {
+  background-color: #353b45;
+}
+
+.dark-theme {
+  background-color: #282c34;
+}

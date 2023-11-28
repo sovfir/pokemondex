@@ -1,0 +1,59 @@
+/* PokemonCard.css */
+
+.maindiv {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .maindiv img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .maindiv p {
+    margin: 0;
+  }
+  
+  .maindiv ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .maindiv li {
+    margin: 0;
+  }
+  
+  .maindiv button {
+    height: auto;
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+  }
+  
+  .light-theme {
+    background-color: white;
+    color: #000000;
+  }
+  
+  .light-theme .maindiv {
+    background-color: white; /* Обновлено: фон в зависимости от темы */
+  }
+  
+  .dark-theme {
+    background-color: bisque;
+    color: gray;
+  }
+  
+  .dark-theme .maindiv {
+    background-color: bisque; /* Обновлено: фон в зависимости от темы */
+  }
+  
+
